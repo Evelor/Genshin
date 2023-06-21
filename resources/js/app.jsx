@@ -7,7 +7,6 @@
 import './bootstrap';
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {BrowserRouter} from "react-router-dom";
 
 
 /**
@@ -18,12 +17,6 @@ import {BrowserRouter} from "react-router-dom";
 
 // import './components/Example';
 import './components/Builds';
-import Builds from "./components/Builds.jsx";
 
-ReactDOM.createRoot(document.getElementById('builds')).render(
-    <BrowserRouter>
-        <Builds />
-    </BrowserRouter>
 
-)
 

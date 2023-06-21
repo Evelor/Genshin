@@ -8,5 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Build extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'weapons', 'artifacts', 'teamcomps'];
+
+    protected $fillable = [
+        'name', 'weapons', 'artifacts', 'teamcomps'
+    ];
 }
